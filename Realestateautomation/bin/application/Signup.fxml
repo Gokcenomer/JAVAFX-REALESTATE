@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SignupController">
+   <children>
+      <BorderPane layoutX="44.0" layoutY="67.0" prefHeight="400.0" prefWidth="400.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <AnchorPane prefHeight="126.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TextField fx:id="txt_firstname" layoutX="30.0" layoutY="36.0" promptText="First Name">
+                     <font>
+                        <Font name="SansSerif Bold" size="12.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="txt_lastname" layoutX="210.0" layoutY="36.0" promptText="Last Name">
+                     <font>
+                        <Font name="SansSerif Bold" size="12.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="txt_email" layoutX="30.0" layoutY="103.0" promptText="Email">
+                     <font>
+                        <Font name="SansSerif Bold" size="12.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="txt_username" layoutX="30.0" layoutY="168.0" promptText="Username">
+                     <font>
+                        <Font name="SansSerif Bold" size="12.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="txt_password" layoutX="210.0" layoutY="103.0" promptText="Password">
+                     <font>
+                        <Font name="SansSerif Bold" size="12.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="txt_confirmpassword" layoutX="210.0" layoutY="168.0" promptText="Confirm Password">
+                     <font>
+                        <Font name="SansSerif Bold" size="12.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </AnchorPane>
+         </center>
+         <bottom>
+            <AnchorPane prefHeight="82.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="btn_signup" layoutX="36.0" layoutY="29.0" mnemonicParsing="false" onAction="#btn_signupClick" prefHeight="25.0" prefWidth="92.0" text="SIGN UP">
+                     <font>
+                        <Font name="SansSerif Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn_ihacoount" layoutX="211.0" layoutY="29.0" mnemonicParsing="false" onAction="#btn_ihaaccountClick" prefHeight="25.0" prefWidth="153.0" text="I HAVE ACCOUNT">
+                     <font>
+                        <Font name="SansSerif Bold" size="12.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </bottom>
+         <top>
+            <AnchorPane prefHeight="80.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label fx:id="SignUp" layoutX="117.0" layoutY="20.0" text="Sign Up">
+                     <font>
+                        <Font name="SansSerif Bold" size="44.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>

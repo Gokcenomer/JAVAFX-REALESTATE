@@ -1,0 +1,115 @@
+*{
+	-fx-font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.root{
+-fx-font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+-fx-background-color:#FF7676;
+}
+
+
+.text-field {
+    -fx-accent: #5DAE8B;
+	-fx-background-color:#5DAE8B, #FF7676;
+	-fx-background-insets: 0, 0 0 1 0;
+	-fx-background-radius: 0;
+    
+}
+
+.text-field:focused {
+   -fx-background-color:#5DAE8B, #FF7676;
+    
+}
+
+.button
+{
+  -fx-background-color: #5DAE8B;
+  
+  -fx-border-style: none;
+  -fx-background-radius:20px;
+  
+  -fx-color: #FFFFFF;
+  -fx-cursor: pointer;
+  -fx-display: inline-block;
+  -fx-font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -fx-font-size: 14px;
+  -fx-font-weight: 500;
+  -fx-height: 40px;
+  -fx-line-height: 20px;
+  -fx-list-style: none;
+  -fx-margin: 0;
+  -fx-outline: none;
+  -fx-padding: 10px 16px;
+  -fx-position: relative;
+  -fx-text-align: center;
+  -fx-text-decoration: none;
+  -fx-transition: color 100ms;
+  -fx-vertical-align: baseline;
+  -fx-user-select: none;
+  -fx--webkit-user-select: none;
+  -fx-touch-action: manipulation;
+}
+
+.button:hover,
+.button:focus {
+  -fx-background-color: #F6F49D;
+
+  
+ 
+ 
+}
+.table-view:row-selection:unconstrained-resize .placeholder{
+	-fx-background-color:#5DAE8B;
+}
+#tableViewList
+{
+	-fx-background-color:#5DAE8B;
+	
+}
+
+.combo-box{
+	  -fx-background-color: #5DAE8B;
+  -fx-border-radius: 8px;
+  -fx-border-style: none;
+}
+.text-area{
+	  -fx-accent: #5DAE8B;
+	-fx-background-color:#5DAE8B, #FF7676;
+	
+	-fx-background-radius: 0;
+}
+.label{
+-fx-text-fill:#5DAE8B;
+-fx-font-size: 14px;
+-fx-font-weight:Bold;
+}
+.radio-button{
+	-fx-text-fill:#5DAE8B;
+	-fx-font-size: 14px;
+-fx-font-weight:Bold;
+}
+.check-box{
+	-fx-text-fill:#5DAE8B;
+	-fx-font-size: 14px;
+-fx-font-weight:Bold;
+}
+#SignUp{
+	-fx-font-size: 50px;
+	-fx-font-weight:Bold;
+	-fx-text-align:center;
+}
+#Login{
+	-fx-font-size: 50px;
+	-fx-font-weight:Bold;
+	-fx-text-align:center;
+}
+#img{
+	
+	
+	
+}
+.image-view{
+	
+
+}
